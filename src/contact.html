@@ -24,14 +24,52 @@
                                 <a class="nav-link" href="bio.html">Bio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link active" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <main></main>
+        <main>
+            <div class="media">
+                <h1 class="media__title">
+                    MEDIA
+                </h1>
+                <h2 class="media__subtitle">VIDEO</h2>
+                <div class="media__content">
+                    <iframe class="media__iframe" src="https://www.youtube.com/embed/y4cLt_XhnY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <h2 class="media__subtitle">MUSIC</h2>
+                <div class="media__content--music">
+                    <iframe class="media__iframe" src="https://open.spotify.com/embed/playlist/7FBGgE2hJxX2DXhLpEPTeJ" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                </div>
+            </div>
+            <div class="contact">
+                <h1 class="contact__title" >CONTACT</h1>
+                <form>
+                    <div class="form-group">
+                      <label for="email">Email address</label>
+                      <input type="email" class="form-control" id="email" placeholder="name@email.com" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" class="form-control" id="subject" required>
+                    </div>
+                    <div class="form-group">
+                      <label for="message">Message</label>
+                      <textarea class="form-control" id="message" rows="5" required></textarea>
+                    </div>
+                    <div class="form-group form-group--text-right">
+                        <button type="submit" class="btn btn-primary mb-2">Sent</button>
+                    </div>
+                  </form>
+            </div>
+        </main>
         <footer>
             <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
                 <div class="container-fluid">
@@ -44,13 +82,13 @@
                                 <a class="nav-link" aria-current="page" href="index.html">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link active" href="band-members.html">Band Members</a>
+                                <a class="nav-link" href="band-members.html">Band Members</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="bio.html">Bio</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Contact</a>
+                                <a class="nav-link active" href="contact.html">Contact</a>
                             </li>
                         </ul>
                     </div>

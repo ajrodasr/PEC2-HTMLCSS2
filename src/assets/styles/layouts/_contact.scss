@@ -1,0 +1,65 @@
+.media {
+  padding: 15px;
+  text-align: center;
+}
+
+.media__title {
+  color: $color-primary;
+}
+
+.media__subtitle {
+  color: $color-primary;
+  text-align: left;
+  border-bottom: solid 1px;
+}
+
+.media__content {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin: 30px auto;
+}
+
+.media__content--music {
+  position: relative;
+  width: 50%;
+  overflow: hidden;
+  padding-top: 56.25%;
+  margin: 30px auto;
+}
+
+.media__iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.contact {
+  padding: 15px 20%;
+}
+
+.contact__title {
+  text-align: center;
+  color: $color-primary;
+  margin: 15px 0;
+}
+
+.form-group {
+  margin: 15px 0;
+}
+
+.form-group--text-right {
+  text-align: right;
+}
+
+@media (max-width: 500px) {
+  .contact {
+    padding: 15px 5%;
+  }
+}
