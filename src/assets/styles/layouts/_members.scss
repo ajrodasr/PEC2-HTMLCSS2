@@ -1,0 +1,45 @@
+.members {
+  padding: 15px;
+  text-align: center;
+}
+
+.members__title {
+  color: $color-primary;
+}
+
+.members__grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.members__item {
+  flex: 1 0 30%;
+  margin: 15px;
+  background-color: white;
+  box-shadow: 2px 2px 2px black;
+}
+
+.members__image {
+  width: 100%;
+}
+
+.members__name {
+  color: $color-primary;
+}
+
+.members__position {
+  font-weight: bold;
+}
+
+.members__info {
+  text-align: left;
+  padding: 10px;
+}
+
+@media (max-width: 470px) {
+  .members__item {
+    flex: none;
+    width: 100%;
+    margin: 15px 0;
+  }
+}
