@@ -57,8 +57,8 @@ body {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
       grid-template-rows: 1fr auto 1fr;
+      gap: 15px;
       background-image: url('../images/portada/poster.jpg');
-      height: 80vh;
       background-size: cover;
       background-position: center;
     }
@@ -74,7 +74,8 @@ body {
       order: 1;
       text-align: center;
       color: transparent;
-      background-color: rgb(255 255 255 / 10%);
+      background-color: $color-primary;
+      opacity: 0.5;
     }
 
     .poster__logo {
@@ -84,8 +85,6 @@ body {
       margin: 0;
       width: 100%;
       order: 1;
-      box-shadow: 2px 2px 2px black;
-      background-color: rgb(255 255 255 / 10%);
     }
 
     .poster__subtitle {
@@ -119,7 +118,7 @@ body {
       grid-column: 1/4;
       grid-row: 3/4;
       margin: 0;
-      box-shadow: 2px 2px 2px black;
+      box-shadow: 2px 0px 2px black;
       align-self: center;
       order: 1;
       text-align: left;
