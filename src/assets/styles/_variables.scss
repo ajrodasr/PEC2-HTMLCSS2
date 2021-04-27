@@ -12,3 +12,11 @@ $theme-colors: (
   'primary': $color-primary,
   'secundary': $color-secundary,
 );
+
+/*Accordeon*/
+$accordion-color: white;
+$accordion-bg: $body-bg;
+$accordion-border-color: $color-primary;
+$accordion-button-bg: $color-primary;
+$accordion-button-active-bg: $color-primary;
+$accordion-button-active-color: white;
