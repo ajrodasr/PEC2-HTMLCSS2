@@ -20,9 +20,13 @@
 }
 
 @media (max-width: 470px) {
-  .members__item {
-    flex: none;
-    width: 100%;
-    margin: 15px 0;
+  .members {
+    .members__grid {
+      .members__item {
+        flex: none;
+        width: 100%;
+        margin: 15px 0;
+      }
+    }
   }
 }

@@ -89,12 +89,14 @@
 }
 
 @media (max-width: 550px) {
-  .bio-content__blockquote {
-    display: block;
-    .bio-content__blockquote--left,
-    .bio-content__blockquote--right {
-      flex: none;
-      margin: 15px;
+  .bio-content {
+    .bio-content__blockquote {
+      display: block;
+      .bio-content__blockquote--left,
+      .bio-content__blockquote--right {
+        flex: none;
+        margin: 15px;
+      }
     }
   }
 }

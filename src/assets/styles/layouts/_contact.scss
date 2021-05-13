@@ -52,8 +52,13 @@
 }
 
 @media (max-width: 500px) {
-  .carrousel,
-  .media__content {
+  .media {
+    .media__content {
+      padding: 0;
+    }
+  }
+
+  .carrousel {
     padding: 0;
   }
 
